@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #9FC184;
+}
+
+.container {
+    max-width: 80vw;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    padding: 15px 0;
+    background-color: #316570;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav li {
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #F9F4CE;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+p,
+input {
+    font-family: 'ABeeZee', sans-serif;
+}
+
+h1,
+h2 {
+    font-family: 'Cinzel Decorative', cursive;
+    color: #316570;
+}
+
+#home .container,
+#blog .container,
+#comunidade .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#home img,
+#blog img,
+#comunidade img {
+    margin: 50px 0;
+    width: auto;
+    height: 500px;
+}
+
+#blog img {
+    height: 400px;
+}
+
+#comunidade img {
+    height: 600px;
+}
+
+.text {
+    margin: 80px 30px 0 30px;
+    font-size: 18px;
+    text-align: left;
+}
+
+h1,
+h2 {
+    padding-bottom: 20px;
+}
+
+#blog {
+    background-color: #D9D9D9;
+}
+
+.text button {
+    font-family: 'Cinzel Decorative', cursive;
+    background-color: #316570;
+    font-size: 20px;
+    color: #F9F4CE;
+    width: 320px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    margin: 20px 0 50px 0;
+}
+
+form input {
+    display: block;
+    width: 320px;
+    height: 50px;
+    margin-bottom: 10px;
+    border: none;
+}
+
+footer {
+    background-color: #316570;
+    color: #D9D9D9;
+    padding: 15px 0;
+}
